@@ -359,3 +359,43 @@ header .container {
 .hero-banner img {
   width: 100%;
 }
+
+/* SERVICE */
+
+.service {
+  padding: var(--section-padding);
+  border: 1px solid green;
+  text-align: center;
+}
+
+.service .section-title {
+  margin-bottom: 15px;
+}
+
+.service .section-text {
+  margin-bottom: 45px;
+}
+.service-list {
+  display: grid;
+  gap: 40px;
+  border: 1px solid blue;
+}
+
+.service .card-icon {
+  width: max-content;
+  margin-inline: auto;
+  color: var(--sonic-silver);
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.service .card-title {
+  margin-bottom: 12px;
+}
+
+.card-text {
+  color: var(--sonic-silver);
+  line-height: 1.6;
+  max-width: 250px;
+  margin-inline: auto;
+}
