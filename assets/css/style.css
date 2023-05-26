@@ -238,7 +238,7 @@ header .container {
 }
 
 .navbar {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   background-color: var(--white);
   position: fixed;
   top: 0;
@@ -300,7 +300,7 @@ header .container {
 /* HERO */
 
 .hero {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding-top: 145px;
   padding-bottom: 40px;
   z-index: 1;
@@ -317,7 +317,7 @@ header .container {
 .hero-content {
   text-align: center;
   margin-bottom: 40px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .hero-title {
@@ -378,7 +378,7 @@ header .container {
 .service-list {
   display: grid;
   gap: 40px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .service .card-icon {
@@ -482,4 +482,83 @@ header .container {
 
 .pricing-banner img {
   width: 100%;
+}
+
+/* FAQ SECTION */
+.faq {
+  padding: var(--section-padding);
+}
+
+.faq :is(.section-subtitle, .section-title) {
+  text-align: center;
+}
+
+.faq .section-title {
+  margin-bottom: 50px;
+}
+
+.grid-wrapper {
+  margin-bottom: 40px;
+  /* border: 1px solid blue; */
+}
+
+.faq .card-title {
+  margin-bottom: 15px;
+}
+
+.faq-list:first-child,
+.faq-list > li:not(:last-child) {
+  /* border: 1px solid green; */
+  margin-bottom: 30px;
+}
+.faq-item-list li {
+  list-style: disc;
+}
+
+.faq-bottom-link {
+  color: var(--gunmetal);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-500);
+  text-align: center;
+}
+
+.faq-bottom-link > a {
+  color: var(--sonic-silver);
+  text-decoration: underline;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.faq-bottom-link > a:is(:hover, :focus) {
+  color: var(--granite-gray);
+}
+
+/* CTA */
+
+.cta {
+  padding: 0 0 var(--section-padding);
+  text-align: center;
+}
+
+.cta-title {
+  color: var(--gunmetal);
+  font-size: var(--fs-4);
+  font-weight: var(--fw-500);
+  margin-bottom: 20px;
+}
+
+.cta .btn-primary {
+  margin-inline: auto;
+  margin-bottom: 10px;
+}
+
+.cta-button-wrapper > a {
+  color: var(--sonic-silver);
+  font-size: var(--fs-7);
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.cta-button-wrapper > a:is(:hover, :focus) {
+  color: var(--granite-gray);
 }
