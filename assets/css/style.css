@@ -399,3 +399,35 @@ header .container {
   max-width: 250px;
   margin-inline: auto;
 }
+
+/* ABOUT */
+
+.about {
+  padding: var(--section-padding);
+  background: var(--cultured);
+  border: 1px solid green;
+}
+
+.about-top,
+.about-banner {
+  margin-bottom: 40px;
+}
+
+.about-banner img {
+  width: 100%;
+}
+
+.about .section-title,
+.about-content .section-text:not(:last-child),
+.about-bottom-title,
+.about-bottom-item:first-child {
+  margin-bottom: 20px;
+}
+
+.about-bottom-list {
+  margin-left: 10px;
+}
+
+.about-bottom-item {
+  list-style: disc;
+}
