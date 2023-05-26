@@ -39,7 +39,3 @@ window.addEventListener("scroll", function () {
     goTopBtn.classList.remove("active");
   }
 });
-
-// RESPONSIVE
-
-// Responsive for larger than 450px

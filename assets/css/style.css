@@ -689,3 +689,61 @@ header .container {
 .go-top-btn:is(:hover, :focus) {
   --silver-chalice: hsl(0, 0%, 60%);
 }
+
+/* RESPONSIVE */
+
+/*  Responsive for larger than 450px */
+
+@media (min-width: 450px) {
+  /* CUSTOM PROPERTY */
+  :root {
+    /**
+     * typography
+     */
+    --fs-1: 30px;
+  }
+  /* REUSED STYLE */
+  .container {
+    padding: 0 25px;
+  }
+
+  /* HERO */
+  .hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+  }
+
+  .hero-text span:not(:last-child) {
+    position: relative;
+    margin-bottom: 0;
+  }
+
+  .hero-text span:not(last-child)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -6px;
+    width: 1px;
+    height: 100%;
+    background-color: var(--sonic-silver);
+  }
+
+  /* SERVICE */
+  .card-text {
+    max-width: 300px;
+  }
+
+  /* CTA */
+  .cta-title {
+    --fs-4: 25px;
+    padding-inline: 30px;
+  }
+
+  /* FOOTER */
+
+  .footer-link-box {
+    grid-template-columns: 1fr 1fr;
+  }
+}
