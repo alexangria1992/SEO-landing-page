@@ -364,7 +364,7 @@ header .container {
 
 .service {
   padding: var(--section-padding);
-  border: 1px solid green;
+  /* border: 1px solid green; */
   text-align: center;
 }
 
@@ -405,7 +405,7 @@ header .container {
 .about {
   padding: var(--section-padding);
   background: var(--cultured);
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .about-top,
@@ -430,4 +430,34 @@ header .container {
 
 .about-bottom-item {
   list-style: disc;
+}
+
+/* FEATURES */
+
+.features {
+  padding: var(--section-padding);
+  border: 1px solid green;
+  text-align: center;
+}
+
+.features .section-title {
+  margin-bottom: 50px;
+}
+
+.features-list {
+  display: grid;
+  gap: 40px;
+  border: 1px solid blue;
+}
+
+.features .card-icon {
+  color: var(--sonic-silver);
+  font-size: 60px;
+  width: max-content;
+  margin-inline: auto;
+  margin-bottom: 20px;
+}
+
+.features .card-title {
+  margin-bottom: 12px;
 }
