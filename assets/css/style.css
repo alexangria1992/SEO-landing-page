@@ -661,3 +661,31 @@ header .container {
 .social-link:is(:hover, :focus) {
   text-decoration: underline;
 }
+
+/* #GO TOP */
+.go-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--silver-chalice);
+  color: var(--white);
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--transition);
+  z-index: 2;
+}
+
+.go-top-btn.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.go-top-btn:is(:hover, :focus) {
+  --silver-chalice: hsl(0, 0%, 60%);
+}

@@ -27,3 +27,19 @@ window.addEventListener("scroll", function () {
     header.classList.remove("active");
   }
 });
+
+// Go to top
+
+const goTopBtn = document.querySelector("[data-go-top");
+
+window.addEventListener("scroll", function () {
+  if (this.window.scrollY > 800) {
+    goTopBtn.classList.add("active");
+  } else {
+    goTopBtn.classList.remove("active");
+  }
+});
+
+// RESPONSIVE
+
+// Responsive for larger than 450px
