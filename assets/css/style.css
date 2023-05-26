@@ -436,7 +436,7 @@ header .container {
 
 .features {
   padding: var(--section-padding);
-  border: 1px solid green;
+  /* border: 1px solid green; */
   text-align: center;
 }
 
@@ -447,7 +447,7 @@ header .container {
 .features-list {
   display: grid;
   gap: 40px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .features .card-icon {
@@ -460,4 +460,26 @@ header .container {
 
 .features .card-title {
   margin-bottom: 12px;
+}
+
+/* PRICING */
+.pricing {
+  background: var(--cultured);
+  padding: var(--section-padding);
+}
+
+.pricing-content {
+  margin-bottom: 40px;
+}
+
+.pricing .section-title {
+  margin-bottom: 20px;
+}
+
+.pricing .section-text {
+  margin-bottom: 30px;
+}
+
+.pricing-banner img {
+  width: 100%;
 }
